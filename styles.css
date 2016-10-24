@@ -3,12 +3,12 @@
  */
 * {
     box-sizing: border-box;
-    font-style: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #706f6f;
 }
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid red;
 }
 .row::after {
   content: "";
@@ -16,11 +16,38 @@
   display: block;
 }
 img {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
-ul {
-  list-style-type: none;
+h1, h2, h3, h4, p {
+  text-align: center;
+}
+a, a:visited {
+  color: #8c4799;
+}
+.course-description p, .left * {
+  text-align: left;
+}
+.flex {
+  display: flex;
+}
+.padded {
+  /*padding: 0 3.5em;*/
+}
+.header {
+  color: #8c4799;
+}
+.footer {
+  font-style: italic;
+  font-size: 12px;
+}
+.container {
+  background-image: url('assets/sdartsbackground.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /**
  * Mobile styles
@@ -38,6 +65,7 @@ ul {
   .col-m-10 {width: 83.33%;}
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
+  .desktop-only {display: none;}
 }
 /**
  * Desktop styles
@@ -55,4 +83,5 @@ ul {
    .col-d-10 {width: 83.33%;}
    .col-d-11 {width: 91.66%;}
    .col-d-12 {width: 100%;}
+   .mobile-only {display: none;}
  }
