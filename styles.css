@@ -27,6 +27,9 @@ h1, h2, h3, h4, p {
 a, a:visited {
   color: #8c4799;
 }
+a:hover {
+  text-decoration: underline;:
+}
 .course-description p, .left * {
   text-align: left;
 }
@@ -48,6 +51,13 @@ a, a:visited {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.nav-bar {
+  text-align: center;
+}
+.nav-item {
+  border-top: 1px solid #706f6f;
+  border-bottom: 1px solid #706f6f;
 }
 /**
  * Mobile styles
@@ -71,6 +81,9 @@ a, a:visited {
  * Desktop styles
  */
  @media only screen and (min-width: 512px) {
+   a, a:visited {
+     text-decoration: none;
+   }
    .col-d-1 {width: 8.33%;}
    .col-d-2 {width: 16.66%;}
    .col-d-3 {width: 25%;}
