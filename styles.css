@@ -42,9 +42,6 @@ ul {
 .flex {
   display: flex;
 }
-.padded {
-  /*padding: 0 3.5em;*/
-}
 .header {
   color: #8c4799;
 }
@@ -53,10 +50,8 @@ ul {
   font-size: 12px;
 }
 .container {
-  background-image: url('assets/sdartsbackground.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
 }
 .nav-bar {
   text-align: center;
