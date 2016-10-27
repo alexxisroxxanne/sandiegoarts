@@ -33,6 +33,9 @@ a:hover {
 table {
   text-align: center;
 }
+ul {
+  padding-left: 4em;
+}
 .course-description p, .left * {
   text-align: left;
 }
@@ -68,6 +71,9 @@ table {
 .signup-dates {
   font-style: italic;
 }
+.left-text {
+  text-align: left;
+}
 /**
  * Mobile styles
  */
@@ -85,14 +91,14 @@ table {
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
   .desktop-only {display: none;}
+  .left-text {
+    padding: 0 1em;
+  }
 }
 /**
  * Desktop styles
  */
  @media only screen and (min-width: 512px) {
-   a, a:visited {
-     text-decoration: none;
-   }
    .col-d-1 {width: 8.33%;}
    .col-d-2 {width: 16.66%;}
    .col-d-3 {width: 25%;}
@@ -106,4 +112,10 @@ table {
    .col-d-11 {width: 91.66%;}
    .col-d-12 {width: 100%;}
    .mobile-only {display: none;}
+   a, a:visited {
+     text-decoration: none;
+   }
+   .left-text {
+     padding: 0 2em;
+   }
  }
