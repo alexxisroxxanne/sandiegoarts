@@ -30,6 +30,9 @@ a, a:visited {
 a:hover {
   text-decoration: underline;:
 }
+table {
+  text-align: center;
+}
 .course-description p, .left * {
   text-align: left;
 }
@@ -61,6 +64,9 @@ a:hover {
 }
 .full-height {
   height: 100%;
+}
+.signup-dates {
+  font-style: italic;
 }
 /**
  * Mobile styles
