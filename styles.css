@@ -42,7 +42,7 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.nav-item, .program-time {
+.nav-item, .program-time, .bold-text {
   font-weight: bold;
 }
 .current-nav a {
@@ -100,6 +100,9 @@ ul {
   }
   .left-text {
     padding: 0 2em;
+  }
+  .padded-text {
+    padding: 0 4em;
   }
   .nav-item {
     border-top: 1px solid #706f6f;
