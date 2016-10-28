@@ -42,17 +42,17 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.nav-item {
+.nav-item, .program-time {
   font-weight: bold;
 }
 .current-nav a {
   color: #706f6f;
 }
-.full-height {
-  height: 100%;
-}
 .signup-dates {
   font-style: italic;
+}
+.right-text {
+  text-align: right;
 }
 /**
  * Mobile styles
