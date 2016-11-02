@@ -28,7 +28,7 @@ a, a:visited, .header {
 a:hover {
   text-decoration: underline;:
 }
-li, .course-description p, .left-text {
+li, .course-description p, .left-text, .venue h3, .venue h4, .venue p {
   text-align: left;
 }
 ul {
