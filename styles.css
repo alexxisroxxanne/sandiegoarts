@@ -42,13 +42,13 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.nav-item, .program-time, .bold-text {
+.nav-item, .program-time, .bold-text, .time {
   font-weight: bold;
 }
 .current-nav a {
   color: #706f6f;
 }
-.signup-dates {
+.signup-dates, .program-desc {
   font-style: italic;
 }
 .right-text {
