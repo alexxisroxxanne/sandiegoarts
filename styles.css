@@ -54,6 +54,10 @@ ul {
 .right-text {
   text-align: right;
 }
+table {
+  margin: auto;
+  padding: 10px;
+}
 /**
  * Mobile styles
  */
@@ -76,6 +80,9 @@ ul {
   }
   .nav-item a {
     text-decoration: none;
+  }
+  select {
+    width: 250px;
   }
 }
 /**
