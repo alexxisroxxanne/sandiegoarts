@@ -58,6 +58,13 @@ table {
   margin: auto;
   padding: 10px;
 }
+input {
+  width: 20em;
+}
+.register-button {
+  border-style: outset;
+  width: 150px;
+}
 /**
  * Mobile styles
  */
