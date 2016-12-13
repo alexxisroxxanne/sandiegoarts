@@ -97,15 +97,24 @@
           <h3>Pay by Credit Card</h3>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="2MVCUMTP4LM7N">
+            <input type="hidden" name="hosted_button_id" value="GJVNRBDTYMLM8">
             <table>
-            <tr><td><input type="hidden" name="on0" value="Choose One:">Choose One:</td></tr><tr><td><select name="os0">
-            	<option value="Early Bird Registration + Intimate Dinner with Faculty">Early Bird Registration + Intimate Dinner with Faculty $2,750.00 USD</option>
-            	<option value="Early Bird Registration - Symposium Only">Early Bird Registration - Symposium Only $2,600.00 USD</option>
-            </select> </td></tr>
+              <tr><td><input type="hidden" name="on0" value="Registration Package">Registration Package</td></tr><tr><td><select name="os0">
+                <option value="Early Bird Registration + Intimate Dinner with Faculty">Early Bird Registration + Intimate Dinner with Faculty $2,750.00 USD</option>
+                <option value="Early Bird Registration - Symposium Only">Early Bird Registration - Symposium Only $2,600.00 USD</option>
+              </select> </td></tr>
+              <tr><td><input type="hidden" name="on1" value="Attendee First Name">Attendee First Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on2" value="Attendee Last Name">Attendee Last Name</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on3" value="Phone Number">Phone Number</td></tr><tr><td><input type="tel" name="os2" maxlength="20"></td></tr>
+              <tr><td><input type="hidden" name="on4" value="Address Line 1">Address Line 1</td></tr><tr><td><input type="text" name="os3" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on5" value="Address Line 2">Address Line 2</td></tr><tr><td><input type="text" name="os4" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on6" value="City">City</td></tr><tr><td><input type="text" name="os5" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on7" value="State/Province">State/Province</td></tr><tr><td><input type="text" name="os6" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on8" value="Country">Country</td></tr><tr><td><input type="text" name="os7" maxlength="200"></td></tr>
+              <tr><td><input type="hidden" name="on9" value="Postal Code">Postal Code</td></tr><tr><td><input type="text" name="os8" maxlength="200"></td></tr>
             </table>
             <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <input class ="register-button" type="image" src="./assets/register-button.png" name="submit" alt="Register Now">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
           </form>
           <br/>
