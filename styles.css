@@ -65,6 +65,11 @@ input {
   border-style: outset;
   width: 150px;
 }
+iframe {
+  width: 100%;
+  max-width: 560px;
+}
+
 /**
  * Mobile styles
  */
